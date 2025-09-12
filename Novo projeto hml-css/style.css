@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    text-decoration: nome;
+}
+:root {
+    --bg-color: #252525;
+    --colo-whit:#fff;
+    --color-purple:#823dbf;
+}
+body 
+
+{
+ background-color: var(--bg-color);
+ display: flex;
+ justify-content: center;/*Só funciona com display flex para alinhar*/
+ align-items: center;/*Só funciona com dysplay flex para alinhar*/
+ height: 100vh;/*Só funciona com display flex para alinhar*/
+}
+
+
+.container {
+    color: var(--colo-whit);
+    max-width: 750px;
+    display: flex;
+    flex-direction: column; /*organizar em colunas, um em baixo do outro*/
+    gap: 45px;/*espaçamento entre os itens, só coluna funciona com display*/
+    text-align: center;
+    & h1 {
+        font-size: 58px;
+    }
+    & .btns{
+        display:flex;
+        gap: ;
+    }
+    & a{
+        text-decoration: none;
+        background-color: var(--color-purple);
+        color: var(--colo-whit);
+        padding: 15px 40px ;
+        border-radius: 10px;
+        
+    }
+    & a:last-child {
+        border:solid 1px var(--colo-whit);
+        background-color:transparent;
+
+    }
+}
