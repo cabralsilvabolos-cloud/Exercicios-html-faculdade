@@ -1,0 +1,28 @@
+*{
+margin: 0%; /* espaçamento externo  */
+padding: 0%; /* espaçamento interno */
+}
+
+h1{
+    color: red; /* Adicione cor na letra */
+
+    background-color: blue;/* Adicione cor no fundo */
+
+    font-size: 50px; /* tamanho da fonte */
+    margin: 50px;/* externo  */
+    padding: 50px;/* interno */
+    text-transform: uppercase;/* letras maiusculas */
+    font-weight: bold;/* espessura */
+    font-family: monospace; /*  Familia da fonte  */
+    letter-spacing: 10px;/* espaçamento entres as letras */
+    text-align: center;/* Alinhamento das letras */
+    border-radius: 10px;/*  faz o arredondamento da borda */
+    border: solid black 5px; /* borda */
+    box-shadow: rgba(0, 0, 0, 0.501) 10px 10px 20px; /* gerador de sombra */
+    border-style: ;  /* estilo da borda */
+    
+}
+p{
+ text-align: justify;/* Justifica o texto/espaçamento entre as palavras */
+
+}
